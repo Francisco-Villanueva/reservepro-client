@@ -1,4 +1,5 @@
 import { AppointmentsTable } from "../components";
+import { CalendarAppointments } from "../components/calendar-appointments";
 
 export async function AppointmentPage() {
   return (
@@ -8,7 +9,7 @@ export async function AppointmentPage() {
       </div>
       <hr />
       <div className="flex flex-col gap-0 p-4 max-md:p-1">
-        <AppointmentsTable />
+        <CalendarAppointments />
       </div>
     </div>
   );
