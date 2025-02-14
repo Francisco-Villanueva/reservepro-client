@@ -146,12 +146,7 @@ export async function SearchCompanyDetail({
             <div className="flex items-center gap-2 text-sm font-light">
               <ClockIcon className="size-5" />
               <p>
-                <span className="text-primary font-medium">Abierto</span> hasta
-                las{" "}
-                {company.workhours && company.workhours[1]
-                  ? company.workhours[1].segments[1].endTime
-                  : "XX:XX "}{" "}
-                hs
+                <span className="text-primary font-medium">Abierto</span>
               </p>
             </div>
             <div className="flex items-center gap-2 text-sm font-light">
